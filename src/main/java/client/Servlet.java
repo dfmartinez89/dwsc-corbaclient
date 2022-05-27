@@ -119,13 +119,13 @@ public class Servlet extends HttpServlet {
 		out.println("<form action=\"http://localhost:8080/ProductorConsumidor/Servlet\" method=\"post\">");
 		out.println("<center>");
 		out.println("<font face=\"Arial,Helvetica\"><font size=\"-1\">Fecha:</font></font>");
-		out.println("<input name=\"fecha\" type=\"datetime-local\" size=\"20\">");
+		out.println("<input name=\"fecha\" type=\"date\" size=\"10\">");
 		out.println("<br><br>");
-		out.println("<font face=\"Arial,Helvetica\"><font size=\"-1\">Nivel interés:</font></font>");
+		out.println("<font face=\"Arial,Helvetica\"><font size=\"-1\">Interés:</font></font>");
 		out.println("<select name=\"interes\">");
-		out.println("<option value=\"alta\">Alta</option>");
-		out.println("<option value=\"media\">Media</option>");
-		out.println("<option value=\"baja\">Baja</option>");
+		out.println("<option value=\"alto\">Alto</option>");
+		out.println("<option value=\"medio\">Medio</option>");
+		out.println("<option value=\"bajo\">Bajo</option>");
 		out.println("</select>");
 		out.println("<br><br>");
 		out.println("<font face=\"Arial,Helvetica\"><font size=\"-1\">Resumen:</font></font>");
