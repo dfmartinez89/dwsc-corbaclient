@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<documentoProductorConsumidor>
+	<noticias>
+		<fecha>12-03-2022</fecha>
+		<interes>Alta</interes>
+		<resumen>elemento</resumen>
+		<noticia>elemento</noticia>
+	</noticias>
+</documentoProductorConsumidor>
