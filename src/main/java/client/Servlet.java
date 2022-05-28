@@ -104,9 +104,7 @@ public class Servlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">");
-		out.println("<meta name=\"Author\" content=\"dwsc\">");
-		out.println("<meta name=\"Description\" content=\"University of Almeria (Spain)\">");
+		out.println("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">");
 		out.println("<title>Productor-Consumidor</title>");
 		out.println("</head>");
 		out.println(
@@ -114,7 +112,7 @@ public class Servlet extends HttpServlet {
 		out.println("<center>");
 		out.println("<br>");
 		out.println(
-				"<b> <font face=\"Arial,Helvetica\"> <font color=\"#003366\"><font size=\"+1\"> Gestor de Noticias</font></font></font></b>");
+				"<button type=\"submit\" onclick=\"window.history.back()\">Back</button> <b> <font face=\"Arial,Helvetica\"> <font color=\"#003366\"><font size=\"+1\"> Gestor de Noticias</font></font></font></b>");
 		out.println("</center> <br>");
 		out.println("<form action=\"http://localhost:8080/ProductorConsumidor/Servlet\" method=\"post\">");
 		out.println("<center>");
